@@ -63,3 +63,13 @@ console.log(findname);
 
 const pi= 3.14;
 
+const deptName = 'IT';
+const location = 'Pune';
+
+
+// const fullString = deptName + ' ' + location;
+// string literal
+// const fullString = `${deptName} ${location}`;
+console.log(fullString);
+
+

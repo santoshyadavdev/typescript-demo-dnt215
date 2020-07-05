@@ -45,3 +45,17 @@ class Manager extends Employee {
 // }
 
 // const el = document.getElementById('div') as HTMLElement;
+
+class Add<T> {
+    number1: T;
+    sub: (num: T, num2: T) => T;
+}
+
+let addNumber = new Add<number>();
+addNumber.number1 = 10;
+
+addNumber.sub = function(a,b) {
+    return a-b;
+}
+
+console.log(addNumber);
